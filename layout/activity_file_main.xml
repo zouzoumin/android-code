@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".File_MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/file_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/file_button1"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/file_button2"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/file_button3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/file_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/SQL_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+    <Button
+        android:id="@+id/SQL_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button"/>
+    <Button
+        android:id="@+id/SQL_button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+    <Button
+        android:id="@+id/SQL_button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button"/>
+</LinearLayout>
